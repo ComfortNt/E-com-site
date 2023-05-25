@@ -1,0 +1,64 @@
+:root{
+    --font:#ffffff;
+    --bgcolor:#000;
+}
+
+.main{
+    width: 100%;
+
+}
+
+
+a{
+    color: #000;
+}
+
+
+.words h1{
+    font-size: 3rem;
+    text-decoration: underline;
+    top: 100px;
+    
+}
+.marg{
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.words p{
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.words button{
+
+    margin: 40px 30px;
+    text-align: center;
+    font-size: 20px;
+    background-color: var(--bgcolor);
+    color: var(--font);
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.8s linear;
+
+}
+
+.git{
+    margin: 15px 15px;
+    border-radius: 10px;
+    width: 40px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+.words button:hover{
+
+    background-color: var(--font);
+    color: var(--bgcolor);
+    opacity: 0.6;
+}
+    

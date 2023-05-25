@@ -1,0 +1,71 @@
+
+.contact{
+
+    background-image: radial-gradient( #000,#fff);
+    height: 120vh;
+
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    margin-top: 100px;
+    background-color: rgba(227, 208, 208, 0.098);
+    width: 40rem;
+    height: 36rem;
+    border-radius: 40px;
+    text-align: center;
+}
+
+form a{
+    margin: 25px 15px;
+    color: #fff;
+}
+
+form h2{
+    color: #fff;
+    font-size: 3rem;
+}
+
+form input{
+    margin: 10px;
+    width: 20rem;
+    height: 2rem;
+    margin: 15px 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 13px 15px;
+    font-size: 1.2rem;
+}
+
+form label{
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+form textarea{
+
+    max-width: 430px;
+    max-height: 200px;
+    font-size: 1.2rem;
+    resize: none;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+
+form button{
+
+    margin: 10px;
+    border-radius: 20px;
+    background-color: #0000005c;
+    color: #fff;
+    width: 150px;
+    height: 40px;
+
+    font-size: 1.1rem;
+
+
+}

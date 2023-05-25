@@ -1,0 +1,119 @@
+.menu {
+    width: 100vw;
+    max-width:100%;
+    height: 213rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+ 
+
+  .btn button{
+    color: #000;
+    background-color: #fff;
+    margin: 0px 0px 20px 10px;
+    padding: 8px;
+    width: 6.4rem;
+    height: auto;
+    outline: none;
+    border: 1px solid #000;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    
+  }
+
+  .btn{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .menuList {
+    width: 80rem;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+  }
+
+  .menuItem button{
+    background-color: #000000;
+    color: #fff;
+    outline: none;
+    border: none;
+    padding: 8px 3px;
+    width: auto;
+    border-radius: 20px;
+    font-size: 1rem;
+    margin: 8px 5px;
+    cursor: pointer;
+    transition: all 0.7s;
+  }
+  .menuItem button:active{
+    background-color:#ffffff;
+    color: #3f3f3f;
+    opacity: 0.6;
+  }
+  
+  .menuItem {
+    border-radius: 15px;
+    width: 270px;
+    height: 310px;
+    margin: 20px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .menuItem:hover {
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in;
+    
+  }
+  
+  .menuItem div {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .menuItem h1,
+  .menuItem p {
+    margin-left: 20px;
+    font-size: 1.2rem;
+  }
+  
+  @media only screen and (max-width: 1300px) {
+    .menuList {
+      grid-template-columns: 1fr 1fr;
+      width: auto !important;
+    }
+    .menu {
+      height: 320rem;
+      margin-left: 38px;
+    }
+  }
+  
+  @media only screen and (max-width:800px) {
+    .menuList {
+      grid-template-columns: 1fr;
+      
+      width: 100px;
+      margin-right: 900px;
+    }
+    .btn {
+      margin-right: 750px;
+    }
+      .menu {
+        height: 610rem;
+      }
+     
+  }
+  
